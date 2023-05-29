@@ -1,0 +1,12 @@
+You are given a string s. You need to reverse the string.
+string reverseWord(string str){
+    
+  //Your code here
+  string strr="";
+  for(int i=str.length()-1;i>=0;i--)
+  {
+      strr=strr+str[i];
+  }
+  str=strr;
+  return strr;
+}
